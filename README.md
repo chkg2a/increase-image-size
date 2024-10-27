@@ -6,22 +6,23 @@ But rest assured this simple program is gonna save your life.
 ## Options
 
 - Usage: increase-imager [-s] <size> <inputFileName>
-- -s flag to increase the size upto that size
+- [-s] flag to increase the size upto that size
 
-### Examples Usage
-- increase-imager -s 102456 signature.jpg // Make the new image upto 102KB only from the signature.jpg
-- increase-imager -s 40K signature.jpg // Make the new image upto 40KB only from the signature.jpg
-- increase-imager 40k signature.jpg // Adds 40KB to the signature.jpg and create a new image
-- increase-imager 40M signature.jpg // Adds 40KB to the signature.jpg and create a new image
-- increase-imager -s 10G signature.jpg // Make the new image upto 10G only from the signature.jpg
-
-- new file final-increased-image.jpg
+### Examples
+```
+increase-imager -s 102456 signature.jpg // Make the new image upto 102KB only from the signature.jpg
+increase-imager -s 40K signature.jpg // Make the new image upto 40KB only from the signature.jpg
+increase-imager 40k signature.jpg // Adds 40KB to the signature.jpg and create a new image
+increase-imager 40M signature.jpg // Adds 40KB to the signature.jpg and create a new image
+increase-imager -s 10G signature.jpg // Make the new image upto 10G only from the signature.jpg
+```
+new file final-increased-image.jpg
 
 ## How To Use
 
 ### Windows
 
-- Download the file from the releases tab according to your platform (Windows, Linux etc)
+- Download the [file](https://github.com/chkg2a/increase-image-size/releases) from the releases tab according to your platform (Windows)
 - Open up the file explorer and go to where you have downloaded the .exe file
 - On the address bar of the file explorer. Click on it and type cmd
 - And type the following commands [Options](#Options)
@@ -31,6 +32,16 @@ But rest assured this simple program is gonna save your life.
     - new file called final-increased-image.jpg
 
 ### Linux
+
+- Download the [file](https://github.com/chkg2a/increase-image-size/releases) from the releases tab according to your platform (Linux)
+- Open up terminal and locate your downloaded file
+- And start using the file directly
+- And type the following commands [Options](#Options)
+- You can also drag and drop the file into the cmd after inserting desired size
+- [Examples](###Examples)
+- new file called final-increased-image.jpg
+
+### Compile from Source
 
 ```
 git clone https://github.com/chkg2a/increase-image-size.git
