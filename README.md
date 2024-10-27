@@ -1,7 +1,8 @@
 <div align="center">
     <img height="200" src="increase-imager.jpg" alt="Increase Imager logo" />
 </div>
-# Increase-Image-Size
+
+<h1 align="center"> Increase-Image-Size </h1>
 This project was created out of necessity due to dumb websites where you need to upload a specific size image. For example where you are asked to upload an image of `50 pixels height and width along with 40-50kb of size`. This is so dumb. If your image size is very low already there's hardly anyway to inrcease the size of the image.
 
 But rest assured this simple program is gonna save your life.
